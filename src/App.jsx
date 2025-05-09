@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import AppSidebar from './layout/sidebar';
+import AppSidebar from './layout/Sidebar';
 import TimeSheet from './pages/TimeSheet';
 import WorklogAnalytics from './pages/WorklogAnalytics';
 import DailyCheckin from './pages/DailyCheckin';
-import AppHeader from './Layout/Header';
+import AppHeader from './layout/Header';
 
 const App = () => {
   return (
